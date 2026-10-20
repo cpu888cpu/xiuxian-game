@@ -210,18 +210,21 @@ App 私有目录下：
 
 ---
 
-## 十、已构建的 APK（WebView 版）
+## 十、已构建的 APK（两个版本）
 
-仓库 `releases/` 目录下已有可直接安装的成品：
+仓库 `releases/` 目录下有两个可直接安装的成品：
 
-```
-releases/凡人问道-v1.1.apk    约 33 KB
-```
+| 文件 | 版本 | 大小 | 说明 |
+|---|---|---|---|
+| `凡人问道-原生版-v1.1.apk` | Kotlin + Compose | 8.7 MB | 正式版，由 GitHub Actions 从 `app/` 编译产出 |
+| `凡人问道-WebView版-v1.1.apk` | Java + HTML5 | 33 KB | 轻量版，无需 Android SDK 也能本地构建 |
 
-- 包名 `com.karios.xiuxian`，versionCode 2，minSdk 24，targetSdk 35
+> **两者包名相同**（`com.karios.xiuxian`），签名不同，**不能共存**。
+> 安装另一个之前请先卸载当前的；WebView 版的存档在卸载时会被一并清空。
+
+- minSdk 24（Android 7.0）
 - 已用 debug 证书签名，可直接安装（非商店分发用途）
 - 安装：把 APK 传到手机 → 点开 → 允许「安装未知来源应用」
-- 卸载重装不会丢档（存档在 App 私有 SharedPreferences 里，卸载才会清）
 
 ### 这一版是什么
 
