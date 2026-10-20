@@ -42,6 +42,7 @@ import com.karios.xiuxian.ui.theme.BloodRed
 import com.karios.xiuxian.ui.theme.Gold
 import com.karios.xiuxian.ui.theme.GoldLight
 import com.karios.xiuxian.ui.theme.InkBlack
+import com.karios.xiuxian.ui.theme.InkLine
 import com.karios.xiuxian.ui.theme.InkSurface
 import com.karios.xiuxian.ui.theme.JadeGreen
 import com.karios.xiuxian.ui.theme.MutedText

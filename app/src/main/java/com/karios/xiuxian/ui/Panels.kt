@@ -36,6 +36,7 @@ import com.karios.xiuxian.logic.def
 import com.karios.xiuxian.logic.itemCount
 import com.karios.xiuxian.logic.maxHp
 import com.karios.xiuxian.logic.maxMp
+import com.karios.xiuxian.logic.realmText
 import com.karios.xiuxian.logic.spd
 import com.karios.xiuxian.model.ItemType
 import com.karios.xiuxian.model.Player

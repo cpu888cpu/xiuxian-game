@@ -30,6 +30,7 @@ import com.karios.xiuxian.logic.battleTalismans
 import com.karios.xiuxian.logic.itemCount
 import com.karios.xiuxian.logic.maxHp
 import com.karios.xiuxian.logic.maxMp
+import com.karios.xiuxian.logic.realmText
 import com.karios.xiuxian.logic.playerAttack
 import com.karios.xiuxian.logic.playerCastSpell
 import com.karios.xiuxian.logic.playerFlee
