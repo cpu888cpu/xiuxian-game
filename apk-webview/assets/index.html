@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#0B0E0C">
+<title>凡人问道</title>
+<style>
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0;height:100%;background:#0B0E0C;color:#E6E0CE;
+  font-family:"Songti SC","Noto Serif CJK SC","Source Han Serif SC","STSong",serif;
+  overflow:hidden;-webkit-user-select:none;user-select:none}
+#app{display:flex;flex-direction:column;height:100vh;height:100dvh}
+.top{flex:0 0 auto;background:#141A15;border-bottom:1px solid #2A332A;padding:8px 12px}
+.trow{display:flex;justify-content:space-between;align-items:center;font-size:13px}
+.nm{color:#D4AF37;font-weight:700}
+.st{color:#F0D97A;font-size:13px}
+.sm{font-size:11px;color:#8C8C7A}
+.bl{display:flex;justify-content:space-between;font-size:10px;color:#8C8C7A;margin-top:5px}
+.bar{height:6px;background:#1D251D;border:1px solid #2A332A;border-radius:3px;overflow:hidden;margin-top:2px}
+.bar i{display:block;height:100%;background:#D4AF37}
+.bar.hp i{background:#C05A4E}
+.bar.mp i{background:#7FB685}
+.bh{display:flex;gap:10px;margin-top:6px}
+.bh>div{flex:1}
+.tabs{flex:0 0 auto;display:flex;overflow-x:auto;background:#141A15;border-bottom:1px solid #2A332A}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;padding:11px 14px;font-size:14px;color:#8C8C7A;white-space:nowrap}
+.tab.on{color:#D4AF37;font-weight:700;box-shadow:inset 0 -2px 0 #D4AF37}
+.view{flex:1 1 auto;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:12px 12px 40px 12px}
+.card{background:#141A15;border:1px solid #2A332A;border-radius:8px;padding:12px;margin-bottom:8px}
+.ttl{color:#D4AF37;font-weight:700;font-size:15px;margin-bottom:6px}
+.txt{font-size:13px;line-height:1.7;color:#E6E0CE}
+.mut{font-size:11px;color:#8C8C7A;line-height:1.7}
+.btn{display:block;width:100%;padding:12px;border-radius:6px;background:#D4AF37;color:#0B0E0C;
+  font-family:inherit;font-size:15px;font-weight:700;border:none;margin-top:8px}
+.btn:disabled{background:#1D251D;color:#8C8C7A}
+.gbtn{display:block;width:100%;padding:11px;border-radius:6px;background:transparent;color:#F0D97A;
+  font-family:inherit;font-size:14px;border:1px solid #2A332A;margin-top:8px}
+.row2{display:flex;gap:8px;margin-top:8px}
+.row2>*{flex:1;margin-top:0}
+.item{display:flex;justify-content:space-between;align-items:center;padding:10px 12px;
+  background:#141A15;border:1px solid #2A332A;border-radius:6px;margin-bottom:6px;font-size:14px}
+.item:active{background:#1D251D}
+.sub{font-size:11px;color:#8C8C7A;margin-top:2px}
+.log{font-size:12px;line-height:1.7;padding:4px 0;border-bottom:1px solid #1D251D}
+.l1{color:#7FB685}.l2{color:#C05A4E}.l3{color:#F0D97A}
+.chip{display:inline-block;padding:1px 6px;border-radius:4px;font-size:11px;
+  border:1px solid #2A332A;color:#8C8C7A;margin-right:4px}
+.mask{position:fixed;left:0;top:0;right:0;bottom:0;background:rgba(0,0,0,.82);
+  display:flex;align-items:center;justify-content:center;padding:24px;z-index:99}
+.dlg{background:#141A15;border:1px solid #D4AF37;border-radius:10px;padding:18px;width:100%;max-width:340px}
+.center{text-align:center}
+.title{font-size:40px;letter-spacing:8px;color:#D4AF37;font-weight:700;text-align:center;margin-bottom:6px}
+.hr{height:1px;background:#2A332A;margin:10px 0}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script src="game.js"></script>
+</body>
+</html>
