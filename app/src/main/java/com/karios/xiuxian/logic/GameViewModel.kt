@@ -7,7 +7,6 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.AndroidViewModel
 import com.karios.xiuxian.data.EvtEffect
-import com.karios.xiuxian.model.ItemDef
 import com.karios.xiuxian.model.ItemType
 import com.karios.xiuxian.data.Items
 import com.karios.xiuxian.data.REALMS
